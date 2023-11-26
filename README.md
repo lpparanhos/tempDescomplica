@@ -1,45 +1,105 @@
-Título da Prática: Criação de um modelo de implementação de banco de dados com o Firebase.
+Atividade Prática 10 - Trabalhando com GitHub
 
-Objetivos: Utilizar os conceitos do banco de dados Firebase para implementar um modelo de BD.
+Título da Prática: Criação de repositório dentro do gitHub
 
-Materiais, Métodos e Ferramentas: Iremos fazer uma pesquisa na internet e utilizar o banco de dados Firebase.
+Objetivos: Utilizar o versionador GitHub para desenvolver todas as etapas de criação do repositório e manipulação dele.
+
+Materiais, Métodos e Ferramentas: Iremos fazer uma pesquisa na internet e utilizar o gitHub.
 
 Atividade Prática
 
-O Firebase é considerado uma plataforma de aplicação web. Isso ajuda os desenvolvedores a criarem aplicativos de alta qualidade. Ele armazena os dados em formato JavaScript Object Notation (JSON) que não usa consulta para inserir, atualizar, excluir ou adicionar dados a ele. Isso é o backend de um sistema que é usado como banco de dados para armazenar dados.
+Informalmente, notamos que “uma versão” não pode existir por si só, mas deve ser entendida como sendo uma versão de algo. Assim, podemos tentar a seguinte definição: Uma versão é uma instância concreta potencial de algum objeto (específico).
 
-Os serviços disponíveis são:
+Dias  (2016)  aponta  que  as perguntas à serem realizadas para analisar a necessidade de um software para controle de versão, são quatro: 
 
-Firebase Analytics
+1. “Alguém já subscreveu o código de outra pessoa por acidente e acabou perdendo as alterações?”
 
-Ele fornece informações sobre o uso do aplicativo. É um aplicativo pago de medição que também proporciona engajamento do usuário. Esse recurso exclusivo permite que o desenvolvedor de aplicativos entenda como os usuários estão usando o aplicativo. O SDK tem o recurso de capturar eventos e propriedades por conta própria e também permite obter dados personalizados.
+2. “Têm dificuldades em saber quais as alterações efetuadas em um programa, quando foram feitas e quem fez?”
 
-Firebase Cloud Messaging (FCM)
+3. “Tem dificuldade em recuperar o código de uma versão anterior da que está em produção?”
 
-Anteriormente conhecido como Google Clouds Messaging (GCM), o FCM é um serviço pago que é uma solução multiplataforma para mensagens e notificações para Android, aplicativos da Web, e IOS.
+4. “Têm problemas em manter variações do sistema ao mesmo tempo”
 
-Autenticação do Firebase
+Caso alguma dessas perguntas acima tiveram um “sim” como resposta, logo se faz necessário um software para fazer o versionamento do código.
 
-O Firebase Auth oferece suporte a provedores de login social como o Facebook, Google GitHub e Twitter. É um serviço que pode autenticar usuários usando apenas código do lado do cliente e é pago pelo serviço. Inclui também um sistema de gestão de utilizadores através do qual os desenvolvedores podem habilitar a autenticação do usuário com e-mail e login de senha armazenados no Firebase.
+E seguindo essa linha de raciocínio podemos citar o git, que é um sistema open-source que serve para fazer o gerenciamento de versões. Ele foi desenvolvido por Linus Torvards, o mesmo desenvolvedor do Linux, que foi criado exatamente para gerenciar o desenvolvimento dos códigos do Linux, isso em 2005.
 
-Banco de dados em tempo real.
+Segundo Buis (2018) “é o sistema de controle de versão mais usado por aí e sua influência é difícil de exagerar”.
 
-O Firebase fornece serviços como banco de dados em tempo real e processo interno. Uma API é fornecida ao desenvolvedor do aplicativo que permite que os dados do aplicativo sejam sincronizados entre clientes e armazenados na nuvem do Firebase. As bibliotecas cliente são fornecidas pela empresa que permite a integração com Aplicativos Android, IOS e JavaScript.
+Também não podemos deixar de mencionar que o versionador Git é um sistema para controle de versão “distribuído”, ou seja, ele não depende de um servidor centralizado.
 
-Armazenamento do Firebase
+Uma coisa muito interessante é que o git pode ser usado para controlar versões de vários formatos, como por exemplo, de códigos fonte, projetos de análise de dados, manuscritos, websites, apresentações etc.
 
-Facilita a transferência de arquivos fácil e segura, independentemente da rede qualidade para os aplicativos do Firebase. É apoiado pelo Google Cloud Storage que é um serviço de armazenamento de objetos econômico. O desenvolvedor pode usá-lo para armazenar imagens, áudio, vídeo ou outros conteúdos gerados por usuários.
+E então vem a pergunta, mas porque usar o Git? Existem várias razões para isso dentre elas temos:
 
-Laboratório de teste do Firebase para Android
+Ele é rápido;
+Não é necessário que tenhamos acesso direto ao servidor, só se tivermos uma conta no git já é o suficiente;
+Muito indicado para fazer o gerenciamento e a unificação simultânea do mesmo arquivo;
+E atualmente se tornou o principal protocolo de gerenciamento de versões.
+Outra ferramenta que podemos destacar é o GitHub.  Então podemos dizer que é uma rede social para gerenciar códigos e projetos.  Segundo Marques (2019) “Se o Git é o coração do GitHub, então o Hub é a alma. O hub de GitHub é o que torna uma linha de comando, como o Git, a maior rede social para desenvolvedores do mundo.”
 
-Ele fornece infraestrutura baseada em nuvem para testar o Android nos aplicativos. Com uma operação, os desenvolvedores podem iniciar o teste de seus aplicativos em uma ampla variedade de dispositivos e configurações. Os vários resultados de teste, como capturas de tela, vídeos e registros estão disponíveis no console do Firebase. Mesmo que um desenvolvedor não tenha escrito nenhum código de teste para seu aplicativo, Test Lab pode exercitar o aplicativo automaticamente, procurando por falhas.
+Com isso podemos chamar o GitHub de “rede social”, pois dentro dele é possível uma socialização entre vários usuários e é um portfólio para indicar o que estão desenvolvendo. Todavia, vale ressaltar algo muito importante, o GitHub não é apenas para desenvolvedores, ainda segundo Marques (2019): O   GitHub   é   uma   ótima   plataforma   que   mudou   o   método   de   trabalho   de desenvolvedores.  Mas qualquer pessoa que deseja gerenciar seu projeto com eficiência e trabalhar com outros colaboradores também pode usar o GitHub.
 
-Relatório de falhas do Firebase
+GitHub é um serviço popular de compartilhamento de código social baseado na Web que utiliza o sistema de controle de versão distribuído Git. Tem se tornado uma ferramenta essencial em áreas de tecnologia que requerem colaboração, como desenvolvimento de software e redação técnica. Também está vendo uma adoção generalizada em outras áreas, transformando a forma como as pessoas colaboram em um repositório compartilhado. Um dos principais pontos fortes do GitHub está na conscientização e recursos de transparência que fornece aos membros da equipe, do projeto e da comunidade. Essas características influenciam positivamente como pessoas contribuem para projetos.
 
-Os relatórios detalhados dos erros são criados no aplicativo. Os erros são agrupados em clusters de rastreamentos de pilha semelhantes e triados pela gravidade. Os outros recursos são: o desenvolvedor pode registrar eventos personalizados para ajudar a capturar as etapas que levam a uma batida.
+Agora que já entendemos o que é um versionamento, o ambiente de linhas de comando git e o ambiente gráfico do GitHub, vamos criar uma pasta com o nome do projeto da sua escolha e um arquivo chamado index.html
 
-Notificações do Firebase
+A seguir você irá adicionar o seguinte conteúdo ao arquivo:
 
-Ele permite notificações de usuários direcionadas para aplicativos móveis desenvolvidos e os serviços estão disponíveis gratuitamente.
+<!DOCTYPE html>
 
-A partir das explanações dos conceitos e aplicações do banco de dados Firebase, queremos, nesta atividade prática, que você projete uma implementação do banco de dados Firebase de estoque de produtos.
+<html lang=“pt-br”>
+
+<head>
+
+<title>Título da página</title>
+
+<meta charset=“utf-8”>
+
+</head>
+
+<body>
+
+<h1>Aqui vai um título</h1>
+
+</body>
+
+</html>
+
+Copied!
+
+Na sequência você irá subir o seu projeto para o GitHub.
+
+1. Criar um repositório em seu GitHub.
+
+2. Você irá abrir o seu terminal de comando e irá adicionar a origem remota e conectar o seu projeto local com o GitHub.
+
+3. Verifique se as alterções que foram realizadas no seu projeto e assim adicionar ao fluxo de versionamento.
+
+4. Execute um commit com uma mensagem útil e na sequência, você dará um push para o repositório remoto (GitHub).
+
+Após isso você irá abrir uma pasta do seu projeto, e irá criar uma pasta chamada imagens, procure no Google por uma imagem de cachorro e salve dentro dessa nova pasta criada. Feito isso, irá abrir seu arquivo index.html e irá adicionar as seguintes modificações e salve o arquivo:
+
+
+
+<!DOCTYPE html>
+
+<html lang=“pt-br”>
+
+<head>
+
+<title>Fanpage de Gatinhos</title>
+
+<meta charset=“utf-8”>
+
+</head>
+
+<body>
+
+<h1>Perfil #catsoninstagram</h1>
+
+<img src=“images/nome_da_sua_imagem.jpg” />
+
+</body>
+
+</html>
